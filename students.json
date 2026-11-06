@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Rym",
+        "grade": 98.0,
+        "status": "Passed"
+    },
+    {
+        "name": "Ahmed",
+        "grade": 92.75,
+        "status": "Passed"
+    },
+    {
+        "name": "Rym",
+        "grade": 96.22,
+        "status": "Passed"
+    },
+    {
+        "name": "Ali",
+        "grade": 48.64,
+        "status": "Failed"
+    },
+    {
+        "name": "Omar",
+        "grade": 78.98,
+        "status": "Passed"
+    },
+    {
+        "name": "Sarah",
+        "grade": 38.87,
+        "status": "Failed"
+    },
+    {
+        "name": "Hassan",
+        "grade": 78.44,
+        "status": "Passed"
+    }
+]
