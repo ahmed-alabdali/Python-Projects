@@ -1,11 +1,9 @@
 import json
 from pathlib import Path
 
-# اسم ملف حفظ بيانات الطلاب
 DATA_FILE = Path("students.json")
 
 
-# تحميل بيانات الطلاب
 def load_students():
     if DATA_FILE.exists():
         with open(DATA_FILE, "r", encoding="utf-8") as file:
@@ -14,13 +12,11 @@ def load_students():
     return []
 
 
-# حفظ بيانات الطلاب
 def save_students(students):
     with open(DATA_FILE, "w", encoding="utf-8") as file:
         json.dump(students, file, ensure_ascii=False, indent=4)
 
 
-# إضافة طالب جديد
 def add_student(students):
     name = input("Enter student name: ").strip()
 
@@ -54,7 +50,6 @@ def add_student(students):
     print("Result:", status)
 
 
-# عرض جميع الطلاب
 def show_students(students):
     if not students:
         print("No students found.")
@@ -71,7 +66,6 @@ def show_students(students):
         )
 
 
-# البحث عن طالب
 def search_student(students):
     name = input("Enter student name to search: ").strip().lower()
 
@@ -88,7 +82,6 @@ def search_student(students):
         print("Student not found.")
 
 
-# حساب متوسط الدرجات
 def calculate_average(students):
     if not students:
         print("No grades available.")
@@ -99,7 +92,6 @@ def calculate_average(students):
     print("Average grade:", round(average, 2))
 
 
-# البرنامج الرئيسي
 def main():
     students = load_students()
 

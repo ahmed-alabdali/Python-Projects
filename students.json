@@ -33,5 +33,10 @@
         "name": "Hassan",
         "grade": 78.44,
         "status": "Passed"
+    },
+    {
+        "name": "Waled",
+        "grade": 73.58,
+        "status": "Passed"
     }
 ]
