@@ -44,7 +44,7 @@ A Command-line Interface (CLI) tool built with Python to verify the authenticity
 - Strict input sanitization to remove space and hyphens.
 - Includes error handling to ensure only numeric input are processed
 
-  ### How to Run
+### How to Run
 1. Run the script: `Python credit_card.py`
 2. Enter a credit card number when prompted 
 ---
