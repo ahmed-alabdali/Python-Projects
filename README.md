@@ -1,6 +1,6 @@
 # Python Projects Portfolio
 
-Welcome to my Python projects repository. This repository contains two main applications built to demonstrate my skills in Python, automation, and data handling.
+Welcome to my Python projects repository. This repository contains three main applications built to demonstrate my skills in Python, automation, and data handling.
 
 ---
 
@@ -33,5 +33,19 @@ An automation script that organizes files within a specified directory into cate
 1. Run the script: `python organizer.py`
 2. Enter the full path of the folder you want to organize (e.g., `C:\Users\YourName\Downloads`).
 
+---
+
+## 3. Credit Card Validator Tool (credit_card.py)
+
+A Command-line Interface (CLI) tool built with Python to verify the authenticity of credit card numbers
+
+### Features
+- Utilizes the **Luhn Algorithm** to validate card numbers.
+- Strict input sanitization to remove space and hyphens.
+- Includes error handling to ensure only numeric input are processed
+
+  ### How to Run
+1. Run the script: 'Python credit_card.py'
+2. Enter a credit card number when prompted 
 ---
 *Built using Python, demonstrating adaptability and AI-assisted development skills.*
