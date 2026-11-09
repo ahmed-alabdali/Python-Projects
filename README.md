@@ -30,7 +30,7 @@ An automation script that organizes files within a specified directory into cate
 - Includes error handling for system permissions and non-existent paths.
 
 ### How to Run
-1. Run the script: `python organizer.py`
+1. Run the script: 'Python credit_card.py'
 2. Enter the full path of the folder you want to organize (e.g., `C:\Users\YourName\Downloads`).
 
 ---
